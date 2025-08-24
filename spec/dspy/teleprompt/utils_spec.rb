@@ -306,7 +306,7 @@ RSpec.describe DSPy::Teleprompt::Utils do
     describe '.create_successful_bootstrap_example' do
       it 'creates bootstrap example with metadata' do
         original = create_test_example("2 + 2", 4)
-        prediction = OpenStruct.new(answer: 4, explanation: "Two plus two equals four")
+        prediction = { answer: 4, explanation: "Two plus two equals four" }
 
         result = DSPy::Teleprompt::Utils.send(
           :create_successful_bootstrap_example,
