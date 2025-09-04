@@ -1,9 +1,10 @@
 ---
 layout: home
-title: "DSPy.rb - Program LLMs, Don't Prompt Them"
-description: "Write modular, testable Ruby code instead of tweaking prompts"
+title: DSPy.rb - Program LLMs, Don't Prompt Them
+description: Write modular, testable Ruby code instead of tweaking prompts
+date: 2025-06-28 00:00:00 +0000
+last_modified_at: 2025-09-01 00:00:00 +0000
 ---
-
 <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:py-32">
   <div class="mb-6 flex justify-center sm:mb-8">
     <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
@@ -15,13 +16,15 @@ description: "Write modular, testable Ruby code instead of tweaking prompts"
     <p class="mt-6 text-lg leading-8 text-gray-600">Tired of copy-pasting prompts and hoping they work? DSPy.rb lets you write modular, type-safe Ruby code that handles the LLM stuff for you. Test it, optimize it, ship it.</p>
     <div class="mt-10 flex items-center justify-center gap-x-6">
       <a href="{{ '/getting-started/' | relative_url }}" class="rounded-md bg-dspy-ruby px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-dspy-ruby">Get started</a>
-      <a href="{{ '/getting-started/quick-start/' | relative_url }}" class="inline-flex items-center py-2.5 text-sm font-semibold text-gray-900 hover:text-dspy-ruby">View examples <span aria-hidden="true">→</span></a>
+      <a href="{{ '/llms-full.txt' | relative_url }}" target="_blank" class="inline-flex items-center py-2.5 text-sm font-semibold text-gray-900 hover:text-dspy-ruby">llms-full.txt <span aria-hidden="true" class="ml-2">→</span></a>
     </div>
   </div>
 </div>
 
 <div class="mx-auto max-w-5xl px-6 lg:px-8">
   <div class="mx-auto max-w-3xl">
+    <p class="text-sm text-gray-500 mb-8">DSPy.rb is a Ruby port of Stanford's <a href="https://dspy.ai" class="underline">DSPy framework</a>, adapted to Ruby idioms and enhanced with production-ready features.</p>
+    
     <h2 class="text-2xl font-bold text-gray-900 mb-6">Why programmatic prompts?</h2>
     <p class="text-lg text-gray-600 mb-12">Because prompt engineering is a nightmare. You tweak words, cross your fingers, and deploy. When it breaks in production (and it will), you're back to square one. DSPy.rb fixes this by letting you define what you want, not how to ask for it.</p>
     
